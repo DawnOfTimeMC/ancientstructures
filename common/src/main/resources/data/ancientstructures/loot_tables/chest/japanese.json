@@ -1,0 +1,126 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 8.0,
+      "bonus_rolls": 4.0,
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:sake_bottle",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:camellia_seeds",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:bamboo_drying_tray",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:sake_cup",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:ikebana_flower_pot",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:unfired_clay_roof_tile",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:gray_clay_roof_tile",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:straight_raked_gravel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:curved_raked_gravel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:stepping_stones",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:mulberry",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:mulberry_leaves",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:maple_red_sapling",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:rice",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:silk_worm_eggs",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:small_tatami_mat",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:stick_bundle",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "sweet_berries",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:white_little_flag",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:paper_wall_flowery",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:cast_iron_teapot_gray",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

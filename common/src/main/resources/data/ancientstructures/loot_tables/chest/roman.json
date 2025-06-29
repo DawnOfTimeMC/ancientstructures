@@ -1,0 +1,76 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 8.0,
+      "bonus_rolls": 4.0,
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "type": "uniform",
+            "min": 1,
+            "max": 3
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:grape_seeds",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:grape",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "acacia_leaves",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:clay_tile_orange",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:clay_tile_black",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:unfired_clay_tile",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:clay_tile",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:big_flower_pot",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:marble_big_flower_pot",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:marble_fancy_fence",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "dawnoftimebuilder:birch_footstool",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

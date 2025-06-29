@@ -1,0 +1,255 @@
+{
+  "type": "chest",
+  "pools": [
+    {
+      "rolls": 6.0,
+      "bonus_rolls": 2.0,
+      "functions": [
+        {
+          "function": "set_count",
+          "count": {
+            "type": "uniform",
+            "min": 1,
+            "max": 2
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "item",
+          "name": "iron_horse_armor",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "ender_pearl",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "diamond",
+          "weight": 3
+        },
+        {
+          "type": "item",
+          "name": "raw_iron",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "arrow",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "flint",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "iron_nugget",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "conduit",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "experience_bottle",
+          "weight": 2
+        },
+        {
+          "type": "item",
+          "name": "flint_and_steel",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "large_amethyst_bud",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "name_tag",
+          "weight": 1
+        },
+        {
+          "type": "item",
+          "name": "medium_amethyst_bud",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "bread",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "Baguette",
+                    "bold": true,
+                    "color": "#EDA126",
+                    "italic": false
+                }
+            },
+            {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "sharpness": 10
+                },
+                "add": true
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "stone_shovel",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "This is my swamp",
+                    "bold": true,
+                    "color": "#083d03",
+                    "italic": false
+                }
+            },
+            {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "knockback": 10
+                },
+                "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.5,
+                "max": 0.7
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "netherite_sword",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "Last stand",
+                    "bold": true,
+                    "color": "#b40000",
+                    "italic": false
+                }
+            },
+            {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "vanishing_curse": 1,
+                    "sharpness": 5
+                },
+                "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.01,
+                "max": 0.02
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_sword",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "Juggernaut sword",
+                    "bold": true,
+                    "color": "#858383",
+                    "italic": false
+                }
+            },
+            {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "vanishing_curse": 1,
+                    "sweeping": 3,
+                    "knockback": 5
+                },
+                "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.2,
+                "max": 0.3
+              }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "cake",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "Sus cake",
+                    "bold": true,
+                    "color": "#f178f5",
+                    "italic": false
+                }
+            }
+          ]
+        },
+        {
+          "type": "item",
+          "name": "iron_sword",
+          "functions": [
+            {
+                "function": "set_name",
+                "name": {
+                    "text": "Anti-life",
+                    "bold": true,
+                    "color": "#222222",
+                    "italic": false
+                }
+            },
+            {
+                "function": "set_enchantments",
+                "enchantments": {
+                    "vanishing_curse": 1,
+                    "smite": 5,
+                    "bane_of_arthropods": 5,
+                    "impaling": 5
+                },
+                "add": true
+            },
+            {
+              "function": "set_damage",
+              "damage": {
+                "type": "uniform",
+                "min": 0.1,
+                "max": 0.2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

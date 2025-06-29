@@ -1,0 +1,15 @@
+{
+    "name": "ancientstructures:ruined_german_village",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "processors": "minecraft:empty",
+                "projection": "rigid",
+                "location": "ancientstructures:ruined_german_village"
+            },
+            "weight": 1
+        }
+    ]
+}

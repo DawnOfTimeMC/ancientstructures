@@ -1,0 +1,31 @@
+{
+  "structures": [
+    {
+      "structure": "ancientstructures:german_farm",
+      "weight": 1
+    },
+    {
+      "structure": "ancientstructures:windmill",
+      "weight": 1
+    }, 
+    {
+      "structure": "ancientstructures:lone_german_house",
+      "weight": 1
+    },
+    {
+      "structure": "ancientstructures:lone_german_farmer",
+      "weight": 1
+    },
+    {
+      "structure": "ancientstructures:ruined_german_village",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 34,
+    "separation": 8,
+    "spread_type": "triangular",
+    "salt": 19011220
+  }
+}
