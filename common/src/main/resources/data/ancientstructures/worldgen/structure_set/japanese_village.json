@@ -11,6 +11,10 @@
     {
       "structure": "ancientstructures:japanese_forge",
       "weight": 1
+    },
+    {
+      "structure": "ancientstructures:rengoku_house",
+      "weight": 1
     }
   ],
   "placement": {
@@ -18,6 +22,6 @@
     "spacing": 34,
     "separation": 8,
     "spread_type": "triangular",
-    "salt": 19011220
+    "salt": 19511220
   }
 }

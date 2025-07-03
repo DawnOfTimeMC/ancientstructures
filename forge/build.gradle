@@ -3,13 +3,6 @@ plugins {
     id 'net.neoforged.moddev.legacyforge'
 }
 
-mixin {
-    add(sourceSets.main, "${mod_id}.refmap.json")
-
-    config("${mod_id}.mixins.json")
-    config("${mod_id}.forge.mixins.json")
-}
-
 legacyForge {
     version = "${minecraft_version}-${forge_version}"
 
@@ -59,11 +52,4 @@ dependencies {
     modRuntimeOnly("maven.modrinth:fusion-connected-textures:1.1.1-forge-mc1.20.1")
     modRuntimeOnly("maven.modrinth:armor-of-the-ages:1.5.6-forge")
     modRuntimeOnly("maven.modrinth:dawn-of-time-builder-edition:1.5.13-forge")
-}
-
-jar {
-    finalizedBy('reobfJar')
-    manifest.attributes([
-            "MixinConfigs": "${mod_id}.mixins.json,${mod_id}.forge.mixins.json"
-    ])
 }
