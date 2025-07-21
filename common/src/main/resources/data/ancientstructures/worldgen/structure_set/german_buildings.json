@@ -19,6 +19,10 @@
     {
       "structure": "ancientstructures:ruined_german_village",
       "weight": 1
+    },
+    {
+      "structure": "ancientstructures:lone_priest",
+      "weight": 1
     }
   ],
   "placement": {
@@ -26,6 +30,6 @@
     "spacing": 34,
     "separation": 8,
     "spread_type": "triangular",
-    "salt": 19018280
+    "salt": 14017289
   }
 }
