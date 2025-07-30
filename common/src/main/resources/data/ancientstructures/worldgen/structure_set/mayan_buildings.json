@@ -15,6 +15,10 @@
     {
       "structure": "ancientstructures:mayan_ruins",
       "weight": 1
+    },
+    {
+      "structure": "ancientstructures:mayan_temple3",
+      "weight": 1
     }
   ],
   "placement": {
