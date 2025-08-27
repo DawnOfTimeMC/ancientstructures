@@ -22,16 +22,6 @@
         },
         {
           "type": "item",
-          "name": "dawnoftimebuilder:camellia_seeds",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:bamboo_drying_tray",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "dawnoftimebuilder:sake_cup",
           "weight": 1
         },
@@ -67,37 +57,7 @@
         },
         {
           "type": "item",
-          "name": "dawnoftimebuilder:mulberry",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:mulberry_leaves",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:maple_red_sapling",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:rice",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:silk_worm_eggs",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "dawnoftimebuilder:small_tatami_mat",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:stick_bundle",
           "weight": 1
         },
         {

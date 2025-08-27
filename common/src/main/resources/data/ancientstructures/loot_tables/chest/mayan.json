@@ -17,22 +17,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "dawnoftimebuilder:maize",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:wild_maize",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "jungle_leaves",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:commelina",
           "weight": 1
         },
         {

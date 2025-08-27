@@ -17,16 +17,6 @@
       "entries": [
         {
           "type": "item",
-          "name": "dawnoftimebuilder:grape_seeds",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:grape",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "acacia_leaves",
           "weight": 1
         },

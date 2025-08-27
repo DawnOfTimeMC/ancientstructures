@@ -17,16 +17,6 @@
       "entries": [
         {
           "type": "item",
-          "name": "dawnoftimebuilder:silk",
-          "weight": 1
-        },
-        {
-          "type": "item",
-          "name": "dawnoftimebuilder:silk_worms",
-          "weight": 1
-        },
-        {
-          "type": "item",
           "name": "dawnoftimebuilder:cast_iron_teapot_decorated",
           "weight": 1
         },

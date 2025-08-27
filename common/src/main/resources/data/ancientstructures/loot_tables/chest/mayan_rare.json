@@ -17,11 +17,6 @@
       "entries": [
         {
           "type": "item",
-          "name": "dawnoftimebuilder:maize",
-          "weight": 3
-        },
-        {
-          "type": "item",
           "name": "cobweb",
           "weight": 3
         },

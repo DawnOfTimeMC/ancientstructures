@@ -52,11 +52,6 @@
         },
         {
           "type": "item",
-          "name": "dawnoftimebuilder:ivy",
-          "weight": 2
-        },
-        {
-          "type": "item",
           "name": "bow",
           "functions": [
             {
