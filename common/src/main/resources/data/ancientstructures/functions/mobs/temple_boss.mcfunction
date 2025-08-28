@@ -1,0 +1,1 @@
+summon minecraft:wither_skeleton ~ ~ ~ {PersistenceRequired:1b,Tags:["temple_boss"],HandItems:[{id:"minecraft:iron_sword",Count:1b},{}],ArmorItems:[{id:"armoroftheages:o_yoroi_armor_feet",Count:1b},{id:"armoroftheages:o_yoroi_armor_legs",Count:1b},{id:"armoroftheages:o_yoroi_armor_chest",Count:1b},{id:"armoroftheages:raijin_armor_head",Count:1b}]}

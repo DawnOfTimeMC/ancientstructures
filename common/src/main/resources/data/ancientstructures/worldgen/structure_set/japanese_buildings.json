@@ -15,6 +15,10 @@
     {
       "structure": "ancientstructures:rengoku_house",
       "weight": 1
+    },
+    {
+      "structure": "ancientstructures:japanese_temple",
+      "weight": 1
     }
   ],
   "placement": {
@@ -22,6 +26,6 @@
     "spacing": 34,
     "separation": 8,
     "spread_type": "triangular",
-    "salt": 19511220
+    "salt": 2335449
   }
 }
