@@ -23,6 +23,10 @@
     {
       "structure": "ancientstructures:lone_priest",
       "weight": 1
+    },
+    {
+      "structure": "ancientstructures:german_town",
+      "weight": 1
     }
   ],
   "placement": {
