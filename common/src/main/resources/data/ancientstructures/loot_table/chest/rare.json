@@ -102,7 +102,7 @@
             {
                 "function": "set_enchantments",
                 "enchantments": {
-                    "sharpness": 10
+                    "minecraft:sharpness": 10
                 },
                 "add": true
             }
@@ -124,7 +124,7 @@
             {
                 "function": "set_enchantments",
                 "enchantments": {
-                    "knockback": 10
+                    "minecraft:knockback": 10
                 },
                 "add": true
             },
@@ -154,8 +154,8 @@
             {
                 "function": "set_enchantments",
                 "enchantments": {
-                    "vanishing_curse": 1,
-                    "sharpness": 5
+                    "minecraft:vanishing_curse": 1,
+                    "minecraft:sharpness": 5
                 },
                 "add": true
             },
@@ -185,9 +185,9 @@
             {
                 "function": "set_enchantments",
                 "enchantments": {
-                    "vanishing_curse": 1,
-                    "sweeping": 3,
-                    "knockback": 5
+                    "minecraft:vanishing_curse": 1,
+                    "minecraft:sweeping_edge": 3,
+                    "minecraft:knockback": 5
                 },
                 "add": true
             },
@@ -232,10 +232,10 @@
             {
                 "function": "set_enchantments",
                 "enchantments": {
-                    "vanishing_curse": 1,
-                    "smite": 5,
-                    "bane_of_arthropods": 5,
-                    "impaling": 5
+                    "minecraft:vanishing_curse": 1,
+                    "minecraft:smite": 5,
+                    "minecraft:bane_of_arthropods": 5,
+                    "minecraft:impaling": 5
                 },
                 "add": true
             },
