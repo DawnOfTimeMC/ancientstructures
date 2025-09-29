@@ -4,13 +4,6 @@ plugins {
 }
 
 repositories {
-    maven {
-        name = "Terraformers"
-        url = "https://maven.terraformersmc.com/"
-    }
-    maven {
-        url = "https://maven.isxander.dev/releases"
-    }
     exclusiveContent {
         forRepository {
             maven {
@@ -22,6 +15,18 @@ repositories {
             includeGroup "maven.modrinth"
         }
     }
+    maven {
+        name = "TerraformersMC"
+        url = "https://maven.terraformersmc.com/"
+    }
+    maven {
+        name = "Ladysnake Libs"
+        url = 'https://maven.ladysnake.org/releases'
+    }
+    maven {
+        name = "CurseMaven"
+        url = "https://cursemaven.com"
+    }
 }
 
 dependencies {
@@ -30,18 +35,15 @@ dependencies {
         officialMojangMappings()
         parchment("org.parchmentmc.data:parchment-${parchment_minecraft}:${parchment_version}@zip")
     }
+    
     modImplementation "net.fabricmc:fabric-loader:${fabric_loader_version}"
     modImplementation "net.fabricmc.fabric-api:fabric-api:${fabric_version}"
-    implementation group: 'com.google.code.findbugs', name: 'jsr305', version: '3.0.1'
-    modImplementation "dev.isxander:yet-another-config-lib:3.6.6+1.20.1-fabric"
-    modImplementation "maven.modrinth:armor-of-the-ages:1.3.4-fabric"
-    modImplementation "maven.modrinth:dawn-of-time:1.5.13-fabric"
-    implementation project(":common")
 }
 
 loom {
-    if (project(":common").file("src/main/resources/${mod_id}.accesswidener").exists()) {
-        accessWidenerPath.set(project(":common").file("src/main/resources/${mod_id}.accesswidener"))
+    def aw = project(':common').file("src/main/resources/${mod_id}.accesswidener")
+    if (aw.exists()) {
+        accessWidenerPath.set(aw)
     }
     mixin {
         defaultRefmapName.set("${mod_id}.refmap.json")
@@ -49,15 +51,15 @@ loom {
     runs {
         client {
             client()
-            setConfigName("Fabric Client")
+            setConfigName('Fabric Client')
             ideConfigGenerated(true)
-            runDir("run")
+            runDir('runs/client')
         }
         server {
             server()
-            setConfigName("Fabric Server")
+            setConfigName('Fabric Server')
             ideConfigGenerated(true)
-            runDir("run")
+            runDir('runs/server')
         }
     }
 }
