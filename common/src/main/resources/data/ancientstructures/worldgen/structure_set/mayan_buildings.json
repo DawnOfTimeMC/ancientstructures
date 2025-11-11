@@ -19,7 +19,11 @@
     {
       "structure": "ancientstructures:mayan_temple3",
       "weight": 1
-    }
+    },
+      {
+          "structure": "ancientstructures:mayan_temple4",
+          "weight": 1
+      }
   ],
   "placement": {
     "type": "minecraft:random_spread",
