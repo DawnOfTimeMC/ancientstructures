@@ -1,15 +1,7 @@
 {
   "structures": [
     {
-      "structure": "ancientstructures:ruined_japanese_village",
-      "weight": 1
-    },
-    {
       "structure": "ancientstructures:japanese_pagoda",
-      "weight": 1
-    },
-    {
-      "structure": "ancientstructures:japanese_forge",
       "weight": 1
     },
     {
