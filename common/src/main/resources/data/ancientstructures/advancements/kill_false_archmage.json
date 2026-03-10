@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "armoroftheages:holy_armor_head",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "False Archmage",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat the False Archmage, a dark wither clad in holy armor, haunting a Germanic ruin.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:kill_cursed_knight",
+  "criteria": {
+    "kill_false_archmage": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"false_archmage\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

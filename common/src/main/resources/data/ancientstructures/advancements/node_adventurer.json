@@ -1,0 +1,116 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Adventurer",
+      "color": "white"
+    },
+    "description": {
+      "text": "Prove your worth and kill all the ancient creatures.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "ancientstructures:root",
+  "criteria": {
+    "kill_corrupted_farmer": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"corrupted_farmer\"]}"
+        }
+      }
+    },
+    "kill_fallen_samurai": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"fallen_samurai\"]}"
+        }
+      }
+    },
+    "kill_temple_boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"temple_boss\"]}"
+        }
+      }
+    },
+    "kill_centurion": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:skeleton",
+          "nbt": "{Tags:[\"centurion\"]}"
+        }
+      }
+    },
+    "kill_tribesmen": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"tribesmen\"]}"
+        }
+      }
+    },
+    "kill_wither_boss": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"wither_boss\"]}"
+        }
+      }
+    },
+    "kill_cursed_knight": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"cursed_knight\"]}"
+        }
+      }
+    },
+    "kill_praetorian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"praetorian\"]}"
+        }
+      }
+    },
+    "kill_false_archmage": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"false_archmage\"]}"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["kill_corrupted_farmer"],
+    ["kill_fallen_samurai"],
+    ["kill_temple_boss"],
+    ["kill_centurion"],
+    ["kill_tribesmen"],
+    ["kill_wither_boss"],
+    ["kill_cursed_knight"],
+    ["kill_praetorian"],
+    ["kill_false_archmage"]
+  ],
+  "rewards": {
+    "experience": 500
+  }
+}

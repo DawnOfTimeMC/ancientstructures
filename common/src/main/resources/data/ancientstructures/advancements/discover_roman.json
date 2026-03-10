@@ -1,0 +1,68 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:roman_emblem"
+    },
+    "title": {
+      "text": "Ave Caesar!",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover a Roman structure.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "find_roman_loot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip",
+              "minecraft:orange_tulip",
+              "minecraft:acacia_leaves"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:savanna"
+            }
+          }
+        ]
+      }
+    },
+    "find_roman_plains": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:red_tulip",
+              "minecraft:orange_tulip"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:plains"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [["find_roman_loot", "find_roman_plains"]],
+  "rewards": {
+    "experience": 25
+  }
+}

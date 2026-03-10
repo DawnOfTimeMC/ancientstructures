@@ -1,0 +1,1 @@
+summon minecraft:zombie ~ ~ ~ {PersistenceRequired:1b,Tags:["tribesmen"],HandItems:[{id:"minecraft:stone_axe",Count:1b},{}],ArmorItems:[{},{},{},{id:"armoroftheages:quetzalcoatl_armor_head",Count:1b}]}

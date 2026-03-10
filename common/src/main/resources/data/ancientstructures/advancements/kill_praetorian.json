@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "armoroftheages:centurion_armor_head",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "The Praetorian",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat the Praetorian, last guardian of the Roman empire, clad in full Centurion armor.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:kill_centurion",
+  "criteria": {
+    "kill_praetorian": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"praetorian\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:precolumbian_emblem"
+    },
+    "title": {
+      "text": "Ancient Structures",
+      "color": "white",
+      "bold": false
+    },
+    "description": {
+      "text": "Discover the remnants of ancient civilizations.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "background": "minecraft:textures/block/mossy_cobblestone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

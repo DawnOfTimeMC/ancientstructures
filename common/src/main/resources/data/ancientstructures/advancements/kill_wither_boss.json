@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "armoroftheages:quetzalcoatl_armor_head",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Wrath of Quetzalcoatl",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat a Wither clad in Quetzalcoatl armor, lurking atop a Pre-Columbian temple.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:kill_tribesmen",
+  "criteria": {
+    "kill_wither": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:wither_skeleton",
+          "nbt": "{Tags:[\"wither_boss\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 150
+  }
+}

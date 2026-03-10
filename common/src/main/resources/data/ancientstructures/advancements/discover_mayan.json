@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:precolumbian_emblem"
+    },
+    "title": {
+      "text": "Children of the Sun",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover a Mayan structure.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "find_mayan_loot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:jungle_leaves",
+              "minecraft:cocoa_beans",
+              "minecraft:melon_slice",
+              "minecraft:vine",
+              "minecraft:moss_block"
+            ]
+          }
+        ],
+        "player": [
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "biome": "minecraft:jungle"
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 25
+  }
+}

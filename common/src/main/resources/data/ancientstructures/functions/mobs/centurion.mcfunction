@@ -1,0 +1,1 @@
+summon minecraft:skeleton ~ ~ ~ {PersistenceRequired:1b,Tags:["centurion"],HandItems:[{id:"minecraft:stone_sword",Count:1b},{id:"minecraft:shield",Count:1b}],ArmorItems:[{id:"minecraft:chainmail_boots",Count:1b},{id:"minecraft:leather_leggings",Count:1b},{id:"armoroftheages:centurion_armor_chest",Count:1b},{id:"minecraft:iron_helmet",Count:1b}]}

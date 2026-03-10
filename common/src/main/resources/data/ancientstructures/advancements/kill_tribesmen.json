@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "armoroftheages:quetzalcoatl_armor_head"
+    },
+    "title": {
+      "text": "Tribesmen",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat a Tribesmen warrior guarding a Pre-Columbian structure.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_adventurer",
+  "criteria": {
+    "kill_tribesmen": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:zombie",
+          "nbt": "{Tags:[\"tribesmen\"]}"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "experience": 50
+  }
+}

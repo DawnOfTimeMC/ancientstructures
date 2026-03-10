@@ -1,0 +1,1 @@
+summon minecraft:skeleton ~ ~ ~ {PersistenceRequired:1b,Tags:["corrupted_farmer"],HandItems:[{id:"minecraft:stone_hoe",Count:1b},{}],ArmorItems:[{id:"minecraft:leather_boots",Count:1b},{id:"minecraft:leather_leggings",Count:1b},{},{id:"armoroftheages:bamboo_hat",Count:1b}]}

@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:nether_star"
+    },
+    "title": {
+      "text": "Conqueror of Ancient Worlds",
+      "color": "white"
+    },
+    "description": {
+      "text": "Defeat every guardian of every ancient civilization.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_adventurer",
+  "criteria": {
+    "slew_temple_boss": {
+      "trigger": "minecraft:player_advancements",
+      "conditions": {
+        "advancement": "ancientstructures:kill_temple_boss",
+        "done": true
+      }
+    },
+    "slew_wither_boss": {
+      "trigger": "minecraft:player_advancements",
+      "conditions": {
+        "advancement": "ancientstructures:kill_wither_boss",
+        "done": true
+      }
+    },
+    "slew_praetorian": {
+      "trigger": "minecraft:player_advancements",
+      "conditions": {
+        "advancement": "ancientstructures:kill_praetorian",
+        "done": true
+      }
+    },
+    "slew_false_archmage": {
+      "trigger": "minecraft:player_advancements",
+      "conditions": {
+        "advancement": "ancientstructures:kill_false_archmage",
+        "done": true
+      }
+    }
+  },
+  "requirements": [
+    ["slew_temple_boss"],
+    ["slew_wither_boss"],
+    ["slew_praetorian"],
+    ["slew_false_archmage"]
+  ],
+  "rewards": {
+    "experience": 200
+  }
+}
