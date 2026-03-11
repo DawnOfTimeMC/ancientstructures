@@ -1,8 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:compass",
-      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
+      "item": "minecraft:compass"
     },
     "title": {
       "text": "Explorer",
@@ -12,7 +11,7 @@
       "text": "Discover all ancient structures across every civilization.",
       "color": "gray"
     },
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true
   },
