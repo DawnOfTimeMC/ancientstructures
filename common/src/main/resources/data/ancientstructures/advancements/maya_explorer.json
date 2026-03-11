@@ -21,7 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:lone_school"
+          "structure": "#ancientstructures:lone_school"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_temple"
+          "structure": "#ancientstructures:mayan_temple"
         }
       }
     },
@@ -37,7 +37,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_temple2"
+          "structure": "#ancientstructures:mayan_temple2"
         }
       }
     },
@@ -45,7 +45,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_temple3"
+          "structure": "#ancientstructures:mayan_temple3"
         }
       }
     },
@@ -53,7 +53,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_temple4"
+          "structure": "#ancientstructures:mayan_temple4"
         }
       }
     },
@@ -61,7 +61,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_village"
+          "structure": "#ancientstructures:mayan_village"
         }
       }
     }

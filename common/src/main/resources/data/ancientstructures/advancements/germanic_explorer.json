@@ -21,7 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:german_farm"
+          "structure": "#ancientstructures:german_farm"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:german_town"
+          "structure": "#ancientstructures:german_town"
         }
       }
     },
@@ -37,7 +37,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:lone_german_farmer"
+          "structure": "#ancientstructures:lone_german_farmer"
         }
       }
     },
@@ -45,7 +45,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:lone_german_house"
+          "structure": "#ancientstructures:lone_german_house"
         }
       }
     },
@@ -53,7 +53,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:lone_priest"
+          "structure": "#ancientstructures:lone_priest"
         }
       }
     },
@@ -61,7 +61,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:windmill"
+          "structure": "#ancientstructures:windmill"
         }
       }
     }

@@ -21,7 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:roman_bath"
+          "structure": "#ancientstructures:roman_bath"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:roman_house"
+          "structure": "#ancientstructures:roman_house"
         }
       }
     },
@@ -37,7 +37,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:roman_temple"
+          "structure": "#ancientstructures:roman_temple"
         }
       }
     },
@@ -45,7 +45,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:roman_tombstone"
+          "structure": "#ancientstructures:roman_tombstone"
         }
       }
     }

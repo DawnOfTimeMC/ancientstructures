@@ -21,7 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:ruined_german_village"
+          "structure": "#ancientstructures:ruined_german_village"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:roman_ruined_temple"
+          "structure": "#ancientstructures:roman_ruined_temple"
         }
       }
     },
@@ -37,7 +37,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:mayan_ruins"
+          "structure": "#ancientstructures:mayan_ruins"
         }
       }
     }

@@ -21,7 +21,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:japanese_pagoda"
+          "structure": "#ancientstructures:japanese_pagoda"
         }
       }
     },
@@ -29,7 +29,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:japanese_temple"
+          "structure": "#ancientstructures:japanese_temple"
         }
       }
     },
@@ -37,7 +37,7 @@
       "trigger": "minecraft:location",
       "conditions": {
         "location": {
-          "structure": "ancientstructures:rengoku_house"
+          "structure": "#ancientstructures:rengoku_house"
         }
       }
     }

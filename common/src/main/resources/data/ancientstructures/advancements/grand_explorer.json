@@ -49,7 +49,7 @@
     "found_archaeology": {
       "trigger": "minecraft:player_advancements",
       "conditions": {
-        "advancement": "ancientstructures:node_archaeology",
+        "advancement": "ancientstructures:ruins_explorer",
         "done": true
       }
     }
