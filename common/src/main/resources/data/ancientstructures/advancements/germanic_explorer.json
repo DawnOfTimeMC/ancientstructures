@@ -13,57 +13,35 @@
     },
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": 0.0
   },
   "parent": "ancientstructures:node_explorer",
   "criteria": {
     "german_farm": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:german_farm"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_farm" }
     },
     "german_town": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:german_town"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_town" }
     },
     "lone_german_farmer": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:lone_german_farmer"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_farmer" }
     },
     "lone_german_house": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:lone_german_house"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_house" }
     },
     "lone_priest": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:lone_priest"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_priest" }
     },
     "windmill": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:windmill"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:windmill" }
     }
   },
   "requirements": [

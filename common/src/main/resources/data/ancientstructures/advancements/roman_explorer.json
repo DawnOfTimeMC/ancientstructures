@@ -13,50 +13,31 @@
     },
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": -1.0
   },
   "parent": "ancientstructures:node_explorer",
   "criteria": {
     "roman_bath": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:roman_bath"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_bath" }
     },
     "roman_house": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:roman_house"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_house" }
     },
     "roman_temple": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:roman_temple"
-        }
-      }
-    },
-    "roman_tombstone": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:roman_tombstone"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_temple" }
     }
   },
   "requirements": [
     ["roman_bath"],
     ["roman_house"],
-    ["roman_temple"],
-    ["roman_tombstone"]
+    ["roman_temple"]
   ],
   "rewards": {
-    "experience": 100
+    "experience": 75
   }
 }

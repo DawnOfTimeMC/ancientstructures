@@ -13,33 +13,23 @@
     },
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": -2.0
   },
   "parent": "ancientstructures:node_explorer",
   "criteria": {
     "japanese_pagoda": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:japanese_pagoda"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:japanese_pagoda" }
     },
     "japanese_temple": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:japanese_temple"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:japanese_temple" }
     },
     "rengoku_house": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:rengoku_house"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:rengoku_house" }
     }
   },
   "requirements": [

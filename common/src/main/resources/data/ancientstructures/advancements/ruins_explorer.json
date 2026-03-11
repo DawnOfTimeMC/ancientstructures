@@ -13,39 +13,34 @@
     },
     "frame": "challenge",
     "show_toast": true,
-    "announce_to_chat": true
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": 2.0
   },
   "parent": "ancientstructures:node_explorer",
   "criteria": {
     "ruined_german_village": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:ruined_german_village"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:ruined_german_village" }
     },
     "roman_ruined_temple": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:roman_ruined_temple"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_ruined_temple" }
     },
     "mayan_ruins": {
-      "trigger": "minecraft:location",
-      "conditions": {
-        "location": {
-          "structure": "#ancientstructures:mayan_ruins"
-        }
-      }
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_ruins" }
+    },
+    "roman_tombstone": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_tombstone" }
     }
   },
   "requirements": [
     ["ruined_german_village"],
     ["roman_ruined_temple"],
-    ["mayan_ruins"]
+    ["mayan_ruins"],
+    ["roman_tombstone"]
   ],
   "rewards": {
     "experience": 75
