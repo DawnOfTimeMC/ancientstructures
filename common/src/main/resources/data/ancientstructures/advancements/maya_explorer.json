@@ -1,0 +1,80 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:precolumbian_emblem"
+    },
+    "title": {
+      "text": "Children of the Sun",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover all Mayan structures.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "lone_school": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:lone_school"
+        }
+      }
+    },
+    "mayan_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_temple"
+        }
+      }
+    },
+    "mayan_temple2": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_temple2"
+        }
+      }
+    },
+    "mayan_temple3": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_temple3"
+        }
+      }
+    },
+    "mayan_temple4": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_temple4"
+        }
+      }
+    },
+    "mayan_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_village"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["lone_school"],
+    ["mayan_temple"],
+    ["mayan_temple2"],
+    ["mayan_temple3"],
+    ["mayan_temple4"],
+    ["mayan_village"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

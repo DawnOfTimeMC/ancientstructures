@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:cracked_stone_bricks"
+    },
+    "title": {
+      "text": "Archaeologist",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover all ancient ruins.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "ruined_german_village": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:ruined_german_village"
+        }
+      }
+    },
+    "roman_ruined_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:roman_ruined_temple"
+        }
+      }
+    },
+    "mayan_ruins": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:mayan_ruins"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["ruined_german_village"],
+    ["roman_ruined_temple"],
+    ["mayan_ruins"]
+  ],
+  "rewards": {
+    "experience": 75
+  }
+}

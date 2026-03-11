@@ -1,14 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:compass"
+      "item": "minecraft:compass",
+      "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1}]}"
     },
     "title": {
       "text": "Grand Explorer",
       "color": "white"
     },
     "description": {
-      "text": "Discover the structures of all four ancient civilizations.",
+      "text": "Discover every structure from every ancient civilization.",
       "color": "gray"
     },
     "frame": "challenge",
@@ -17,42 +18,50 @@
   },
   "parent": "ancientstructures:node_explorer",
   "criteria": {
-    "found_japanese": {
+    "found_germanic": {
       "trigger": "minecraft:player_advancements",
       "conditions": {
-        "advancement": "ancientstructures:discover_japanese",
+        "advancement": "ancientstructures:germanic_explorer",
         "done": true
       }
     },
     "found_roman": {
       "trigger": "minecraft:player_advancements",
       "conditions": {
-        "advancement": "ancientstructures:discover_roman",
+        "advancement": "ancientstructures:roman_explorer",
         "done": true
       }
     },
-    "found_mayan": {
+    "found_japanese": {
       "trigger": "minecraft:player_advancements",
       "conditions": {
-        "advancement": "ancientstructures:discover_mayan",
+        "advancement": "ancientstructures:japanese_explorer",
         "done": true
       }
     },
-    "found_germanic": {
+    "found_maya": {
       "trigger": "minecraft:player_advancements",
       "conditions": {
-        "advancement": "ancientstructures:discover_germanic",
+        "advancement": "ancientstructures:maya_explorer",
+        "done": true
+      }
+    },
+    "found_archaeology": {
+      "trigger": "minecraft:player_advancements",
+      "conditions": {
+        "advancement": "ancientstructures:node_archaeology",
         "done": true
       }
     }
   },
   "requirements": [
-    ["found_japanese"],
+    ["found_germanic"],
     ["found_roman"],
-    ["found_mayan"],
-    ["found_germanic"]
+    ["found_japanese"],
+    ["found_maya"],
+    ["found_archaeology"]
   ],
   "rewards": {
-    "experience": 200
+    "experience": 500
   }
 }

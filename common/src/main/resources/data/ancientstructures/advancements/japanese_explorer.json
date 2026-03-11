@@ -1,0 +1,53 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:japanese_emblem"
+    },
+    "title": {
+      "text": "Land of the Rising Sun",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover all Japanese structures.",
+      "color": "gray"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "japanese_pagoda": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:japanese_pagoda"
+        }
+      }
+    },
+    "japanese_temple": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:japanese_temple"
+        }
+      }
+    },
+    "rengoku_house": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "structure": "ancientstructures:rengoku_house"
+        }
+      }
+    }
+  },
+  "requirements": [
+    ["japanese_pagoda"],
+    ["japanese_temple"],
+    ["rengoku_house"]
+  ],
+  "rewards": {
+    "experience": 75
+  }
+}
