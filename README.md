@@ -1,4 +1,4 @@
-# Ancient Structures
+# 🏛️ Ancient Structures
 
 [curseforge]: https://img.shields.io/badge/CurseForge-Download-orange?style=flat-square&logo=curseforge&labelColor=0d1117
 [curseforgeLink]: https://www.curseforge.com/minecraft/mc-mods/ancient-cultural-structures
@@ -11,7 +11,7 @@
 
 A Minecraft mod that generates ancient structures from various world cultures directly in the overworld.
 
-Available for **Fabric** and **Forge** on Minecraft **1.20.1**.
+Available for **Fabric**, **Forge** and **Neoforge** on Minecraft **1.20.1** and **1.21.1**.
 
 ---
 
@@ -25,7 +25,7 @@ Every civilization comes with its own guardians to face, unique loot to collect,
 
 ## Dawn of Time Ecosystem
 
-This mod is part of the **Dawn of Time** modding ecosystem and requires [Dawn of Time Builder](https://www.curseforge.com/minecraft/mc-mods/dawn-of-time-builder) and [Armor of the Ages](https://www.curseforge.com/minecraft/mc-mods/armor-of-the-ages) to run.
+This mod is part of the **Dawn of Time** modding ecosystem and requires [Dawn of Time Builder](https://www.curseforge.com/minecraft/mc-mods/dawn-of-time) and [Armor of the Ages](https://www.curseforge.com/minecraft/mc-mods/armor-of-the-ages) to run.
 
 It is also the flagship entry of the **Ancient Structures** series. Check out the other mods in the series:
 
@@ -39,7 +39,7 @@ It is also the flagship entry of the **Ancient Structures** series. Check out th
 - **TheGoldenWorld** — structures, ideas & project owner
 - **Jackie** — structure helper
 - **Lekter** — windmill structure
-- **Poulpinou** — code help & project creation
+- **Poulpinou** — code help at project creation
 
 ## License
 
