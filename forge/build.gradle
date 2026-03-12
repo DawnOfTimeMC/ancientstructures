@@ -40,6 +40,10 @@ legacyForge {
 
 sourceSets.main.resources.srcDir 'src/generated/resources'
 
+tasks.named('jar', Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+}
+
 repositories {
     maven {
         url = "https://api.modrinth.com/maven"
