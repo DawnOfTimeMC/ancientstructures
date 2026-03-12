@@ -1,4 +1,45 @@
 plugins {
     id 'fabric-loom' version '1.9-SNAPSHOT' apply(false)
     id 'net.neoforged.moddev.legacyforge' version '2.0.77' apply(false)
+    id "me.modmuss50.mod-publish-plugin" version "1.1.0" apply(false)
+}
+
+def patchNoteProvider = providers.provider {
+    def file = rootProject.layout.projectDirectory.file("patch_notes.md").asFile
+    if (!file.exists()) {
+        throw new GradleException("MISSING PATCH NOTES !!")
+    }
+    file.text
+}
+
+configure([project(":fabric"), project(":forge")]) {
+    apply plugin: 'me.modmuss50.mod-publish-plugin'
+
+    publishMods {
+        changelog = patchNoteProvider
+        type = STABLE
+
+        curseforge {
+            projectId = "1300212"
+            accessToken = providers.environmentVariable("CURSEFORGE_API_KEY")
+            minecraftVersions.add(project.property("minecraft_version"))
+            changelogType = "markdown"
+
+            requires("dawn-of-time")
+            requires("armor-of-the-ages")
+            requires("fusion-connected-textures")
+            requires("yacl")
+        }
+
+        modrinth {
+            projectId = "gZp8ofn3"
+            accessToken = providers.environmentVariable("MODRINTH_API_KEY")
+            minecraftVersions.add(project.property("minecraft_version"))
+
+            requires("dawn-of-time")
+            requires("armor-of-the-ages")
+            requires("fusion-connected-textures")
+            requires("yacl")
+        }
+    }
 }
