@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "#ancientstructures:roman",
   "step": "surface_structures",
-  "terrain_adaptation": "beard_thin",
+  "terrain_adaptation": "none",
   "spawn_overrides": {},
   "start_pool": "ancientstructures:roman_house",
   "size": 7,
