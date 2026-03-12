@@ -1,0 +1,43 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:roman_emblem"
+    },
+    "title": {
+      "text": "Gloria Romae",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover all Roman structures.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": -1.0
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "roman_bath": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_bath" }
+    },
+    "roman_house": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_house" }
+    },
+    "roman_temple": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_temple" }
+    }
+  },
+  "requirements": [
+    ["roman_bath"],
+    ["roman_house"],
+    ["roman_temple"]
+  ],
+  "rewards": {
+    "experience": 75
+  }
+}

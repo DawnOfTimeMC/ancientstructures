@@ -1,6 +1,7 @@
 plugins {
     id 'multiloader-loader'
     id 'fabric-loom'
+    id 'me.modmuss50.mod-publish-plugin'
 }
 
 repositories {
@@ -60,4 +61,9 @@ loom {
             runDir("run")
         }
     }
+}
+
+publishMods {
+    file = remapJar.archiveFile
+    modLoaders.addAll("fabric", "quilt")
 }

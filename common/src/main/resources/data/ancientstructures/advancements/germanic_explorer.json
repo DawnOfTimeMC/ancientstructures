@@ -1,0 +1,58 @@
+{
+  "display": {
+    "icon": {
+      "item": "dawnoftimebuilder:german_emblem"
+    },
+    "title": {
+      "text": "Das Germanische Erbe",
+      "color": "white"
+    },
+    "description": {
+      "text": "Discover all Germanic structures.",
+      "color": "gray"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "x": 4.0,
+    "y": 0.0
+  },
+  "parent": "ancientstructures:node_explorer",
+  "criteria": {
+    "german_farm": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_farm" }
+    },
+    "german_town": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_town" }
+    },
+    "lone_german_farmer": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_farmer" }
+    },
+    "lone_german_house": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_house" }
+    },
+    "lone_priest": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_priest" }
+    },
+    "windmill": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:windmill" }
+    }
+  },
+  "requirements": [
+    ["german_farm"],
+    ["german_town"],
+    ["lone_german_farmer"],
+    ["lone_german_house"],
+    ["lone_priest"],
+    ["windmill"]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

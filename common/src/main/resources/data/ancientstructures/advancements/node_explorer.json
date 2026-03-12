@@ -8,17 +8,129 @@
       "color": "white"
     },
     "description": {
-      "text": "The world holds many forgotten civilizations. Go find them.",
+      "text": "Discover all ancient structures across every civilization.",
       "color": "gray"
     },
     "frame": "task",
-    "show_toast": false,
-    "announce_to_chat": false
+    "show_toast": true,
+    "announce_to_chat": true
   },
   "parent": "ancientstructures:root",
   "criteria": {
-    "tick": {
-      "trigger": "minecraft:tick"
+    "german_farm": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_farm" }
+    },
+    "german_town": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:german_town" }
+    },
+    "lone_german_farmer": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_farmer" }
+    },
+    "lone_german_house": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_german_house" }
+    },
+    "lone_priest": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_priest" }
+    },
+    "windmill": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:windmill" }
+    },
+    "roman_bath": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_bath" }
+    },
+    "roman_house": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_house" }
+    },
+    "roman_temple": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_temple" }
+    },
+    "japanese_pagoda": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:japanese_pagoda" }
+    },
+    "japanese_temple": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:japanese_temple" }
+    },
+    "rengoku_house": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:rengoku_house" }
+    },
+    "lone_school": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:lone_school" }
+    },
+    "mayan_temple": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_temple" }
+    },
+    "mayan_temple2": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_temple2" }
+    },
+    "mayan_temple3": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_temple3" }
+    },
+    "mayan_temple4": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_temple4" }
+    },
+    "mayan_village": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_village" }
+    },
+    "ruined_german_village": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:ruined_german_village" }
+    },
+    "roman_ruined_temple": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_ruined_temple" }
+    },
+    "mayan_ruins": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:mayan_ruins" }
+    },
+    "roman_tombstone": {
+      "trigger": "ancientstructures:structure_discovery",
+      "conditions": { "structure": "ancientstructures:roman_tombstone" }
     }
+  },
+  "requirements": [
+    ["german_farm"],
+    ["german_town"],
+    ["lone_german_farmer"],
+    ["lone_german_house"],
+    ["lone_priest"],
+    ["windmill"],
+    ["roman_bath"],
+    ["roman_house"],
+    ["roman_temple"],
+    ["japanese_pagoda"],
+    ["japanese_temple"],
+    ["rengoku_house"],
+    ["lone_school"],
+    ["mayan_temple"],
+    ["mayan_temple2"],
+    ["mayan_temple3"],
+    ["mayan_temple4"],
+    ["mayan_village"],
+    ["ruined_german_village"],
+    ["roman_ruined_temple"],
+    ["mayan_ruins"],
+    ["roman_tombstone"]
+  ],
+  "rewards": {
+    "experience": 500
   }
 }
