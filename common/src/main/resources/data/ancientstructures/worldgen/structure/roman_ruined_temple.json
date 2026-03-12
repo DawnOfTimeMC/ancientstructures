@@ -2,7 +2,7 @@
   "type": "minecraft:jigsaw",
   "biomes": "#ancientstructures:roman",
   "step": "surface_structures",
-  "terrain_adaptation": "none",
+  "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},
   "start_pool": "ancientstructures:roman_ruined_temple",
   "size": 7,
