@@ -18,6 +18,7 @@ configure([project(":fabric"), project(":forge")]) {
     publishMods {
         changelog = patchNoteProvider
         type = STABLE
+        displayName = "Ancient Structures - ${project.property("minecraft_version")} v${project.version}"
 
         curseforge {
             projectId = "1300212"

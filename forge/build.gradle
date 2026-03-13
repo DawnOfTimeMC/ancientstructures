@@ -56,6 +56,11 @@ dependencies {
     modRuntimeOnly("maven.modrinth:dawn-of-time:1.5.44-forge")
 }
 
+tasks.named('jar', Jar) {
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    finalizedBy('reobfJar')
+}
+
 publishMods {
     file = jar.archiveFile
     modLoaders.add("forge")

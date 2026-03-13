@@ -65,5 +65,5 @@ loom {
 
 publishMods {
     file = remapJar.archiveFile
-    modLoaders.addAll("fabric", "quilt")
+    modLoaders.add("fabric")
 }
